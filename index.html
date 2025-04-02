@@ -1,0 +1,20 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Iofi</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Yofi</h2>
+        <input type="text" id="name" placeholder="Nama Anda" required>
+        <input type="email" id="email" placeholder="Email Anda" required>
+        <textarea id="message" placeholder="Pesan Anda" required></textarea>
+        <button onclick="sendEmail()">Kirim</button>
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
